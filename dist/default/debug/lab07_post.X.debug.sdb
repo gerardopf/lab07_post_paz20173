@@ -1,0 +1,209 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"41 C:\Users\gerar\Desktop\UVG\micros_lab_code\lab07_post\lab07_post.X\main.c
+[v _codificar_7seg codificar_7seg `(v  1 e 1 0 ]
+"80
+[v _multiplexado multiplexado `(v  1 e 1 0 ]
+"106
+[v _isr isr `II(v  1 e 1 0 ]
+"126
+[v _timer0 timer0 `(v  1 e 1 0 ]
+"139
+[v _setup_int setup_int `(v  1 e 1 0 ]
+"145
+[v _setup setup `(v  1 e 1 0 ]
+"161
+[v _clk clk `(v  1 e 1 0 ]
+"167
+[v _separar separar `(v  1 e 1 0 ]
+"180
+[v _main main `(v  1 e 1 0 ]
+"60 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"167
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"229
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S25 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"246
+[u S34 . 1 `S25 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES34  1 e 1 @6 ]
+"291
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"353
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"460
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S74 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"483
+[s S83 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S88 . 1 `S74 1 . 1 0 `S83 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES88  1 e 1 @11 ]
+[s S48 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1367
+[s S55 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S59 . 1 `S48 1 . 1 0 `S55 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES59  1 e 1 @129 ]
+"1417
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1479
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1541
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1603
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S116 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 LTS 1 0 :1:1 
+`uc 1 HTS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+]
+"1883
+[s S122 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S127 . 1 `S116 1 . 1 0 `S122 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES127  1 e 1 @143 ]
+"2417
+[v _IOCB IOCB `VEuc  1 e 1 @150 ]
+"3388
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3450
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"4135
+[v _RBIF RBIF `VEb  1 e 0 @88 ]
+"4327
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"37 C:\Users\gerar\Desktop\UVG\micros_lab_code\lab07_post\lab07_post.X\main.c
+[v _contador contador `uc  1 e 1 0 ]
+[v _cod cod `uc  1 e 1 0 ]
+"38
+[v _vector vector `[3]uc  1 e 3 0 ]
+"180
+[v _main main `(v  1 e 1 0 ]
+{
+"190
+} 0
+"126
+[v _timer0 timer0 `(v  1 e 1 0 ]
+{
+"137
+} 0
+"139
+[v _setup_int setup_int `(v  1 e 1 0 ]
+{
+"143
+} 0
+"145
+[v _setup setup `(v  1 e 1 0 ]
+{
+"159
+} 0
+"167
+[v _separar separar `(v  1 e 1 0 ]
+{
+[v separar@valor valor `uc  1 a 1 wreg ]
+"168
+[v separar@temp temp `uc  1 a 1 14 ]
+"167
+[v separar@valor valor `uc  1 a 1 wreg ]
+[v separar@vector vector `*.4uc  1 p 1 9 ]
+[v separar@valor valor `uc  1 a 1 13 ]
+"177
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"161 C:\Users\gerar\Desktop\UVG\micros_lab_code\lab07_post\lab07_post.X\main.c
+[v _clk clk `(v  1 e 1 0 ]
+{
+"165
+} 0
+"106
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"122
+} 0
+"80
+[v _multiplexado multiplexado `(v  1 e 1 0 ]
+{
+"104
+} 0
+"41
+[v _codificar_7seg codificar_7seg `(v  1 e 1 0 ]
+{
+[v codificar_7seg@valor valor `uc  1 a 1 wreg ]
+[v codificar_7seg@valor valor `uc  1 a 1 wreg ]
+[v codificar_7seg@cod cod `*.39uc  1 p 2 0 ]
+[v codificar_7seg@valor valor `uc  1 a 1 4 ]
+"78
+} 0
